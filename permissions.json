@@ -1,16 +1,16 @@
 {
     "team": {
-        "inviteUser": 0,
-        "createProject": 1,
-        "changeTeamSetting": 2,
-        "changeTeamPermission": 3,
-        "changeRole": 4,
-        "kick": 5
+        "INVITE_USER": 0,
+        "CREATE_PROJECT": 1,
+        "UPDATE_GROUP_USER_PERMISSION": 2,
+        "UPDATE_TEAM_SETTING": 3,
+        "DELETE_TEAM": 4,
+        "DELETE_USER": 5
     },
     "project": {
-        "read": 0,
-        "write": 1,
-        "share": 2,
-        "postInMeeting": 3
+        "READ": 0,
+        "WRITE": 1,
+        "SHARE": 2,
+        "POST_IN_MEETING": 3
     }
 }
